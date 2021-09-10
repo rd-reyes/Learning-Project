@@ -17,6 +17,7 @@ h1 {
 
     background-color: #0CECDD;
     border: solid 10px;
+    border-bottom: solid 0px;
     width: 200px;
     height: 200px;
     padding-top: 20px;
@@ -29,6 +30,7 @@ h1 {
 
     background-color: #c90be2;
     border: solid 10px;
+    border-bottom: solid 0px;
     width: 200px;
     height: 200px;
     padding-top: 20px;
