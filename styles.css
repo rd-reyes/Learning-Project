@@ -16,8 +16,9 @@ h1 {
 .topsect {
 
     background-color: #0CECDD;
+    margin-left: 0px;
     border: solid 10px;
-    border-bottom: solid 0px;
+    border-bottom: solid 10px;
     width: 200px;
     height: 200px;
     padding-top: 20px;
@@ -29,8 +30,9 @@ h1 {
 .midsect {
 
     background-color: #c90be2;
+    margin-left: 230px;
     border: solid 10px;
-    border-bottom: solid 0px;
+    border-bottom: solid 10px;
     width: 200px;
     height: 200px;
     padding-top: 20px;
@@ -42,6 +44,7 @@ h1 {
 .bottsect {
 
     background-color: #11e9a8;
+    margin-left: 460px;
     border: solid 10px;
     width: 200px;
     height: 200px;
