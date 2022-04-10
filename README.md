@@ -1,2 +1,2 @@
 # Learning-project
-Just like sketching to drawing.
+Just like sketching/drawing.
