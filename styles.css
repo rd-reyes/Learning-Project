@@ -4,52 +4,52 @@ body {
     
 }
 
+div {
+    width: auto;
+    border: 1px solid black;
+}
 h1 {
-
+    text-align: center;
     margin-top: 50px;
     margin-bottom: 50px;
     margin-left: 0px;
     margin-right: 0px;
+    font-family: "Lucida Console", "Courier New", monospace;
+    
 
+}
+
+h2 {
+    text-align: center;
+    font-family: "Lucida Console", "Courier New", monospace;
+
+}
+
+p {
+    text-align: center; 
+    font-size: 18px;
+    text-size-adjust: auto;
+    font-family: "Lucida Console", "Courier New", monospace;
 }
 
 .topsect {
 
     background-color: #0CECDD;
-    margin-left: 0px;
-    border: solid 10px;
-    border-bottom: solid 10px;
-    width: 200px;
-    height: 200px;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    padding-left: 20px;
-
+    width: auto;
+    border-top: 5px solid black;
+    border-bottom: 5px solid black;
 }
 
 .midsect {
 
     background-color: #c90be2;
-    margin-left: 230px;
-    border: solid 10px;
-    border-bottom: solid 10px;
-    width: 200px;
-    height: 200px;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    padding-left: 20px;
-
+    width: auto;
+    border-bottom: 5px solid black;
 }
 
 .bottsect {
 
     background-color: #11e9a8;
-    margin-left: 460px;
-    border: solid 10px;
-    width: 200px;
-    height: 200px;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    padding-left: 20px;
-
+    width: auto;
+    border-bottom: 5px solid black;
 }
