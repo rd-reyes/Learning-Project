@@ -32,6 +32,13 @@ p {
     font-family: "Lucida Console", "Courier New", monospace;
 }
 
+iframe {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+}
+
 .topsect {
 
     background-color: #0CECDD;
