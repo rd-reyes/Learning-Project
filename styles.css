@@ -58,15 +58,11 @@ p {
     border-radius: 50%;
 }
 
-.yohmarwave {
+.socialicons {
     display: block;
-    margin-top: -50px;
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: -20px;
-    width: 200px;
-    height: 200px;
-    border-radius: 50%;
+    width: 50px;
 }
 
 iframe {
