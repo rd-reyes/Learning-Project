@@ -1,0 +1,161 @@
+
+/*Outline for parents & child*/
+body {
+
+    margin: 0;
+    background-color: rgb(27, 27, 27);
+    
+}
+
+div {
+    width: auto;
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+    border: 1px solid rgb(0, 0, 0);
+}
+h1 {
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 0px;
+    margin-right: 0px;
+    font-family: "Lucida Console", "Courier New", monospace;
+}
+
+h2 {
+    text-align: center;
+    font-family: "Lucida Console", "Courier New", monospace;
+}
+
+h3 {
+    text-align: center;
+    font-size: 18px;
+    font-family: "Lucida Console", "Courier New", monospace;
+}
+
+h4 {
+    text-align: center;
+    font-size: 16px;
+    font-family: "Lucida Console", "Courier New", monospace;
+}
+
+li {
+    text-align: center;
+    font-size: 18px;
+}
+
+p {
+    text-align: center; 
+    font-size: 18px;
+    text-size-adjust: auto;
+    font-family: "Lucida Console", "Courier New", monospace;
+    font-weight: bold;
+}
+
+/*images and links*/
+.pfp {
+    display: block;
+    margin-top: -50px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: -20px;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border-top: 3px solid black;
+    border-left: 3px solid black;
+    border-right: 3px solid black;
+    opacity: 0.6;
+}
+
+.socialicons {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50px;
+}
+
+iframe {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: center;
+}
+
+/*Main Content*/
+.topsect {
+
+    background-color: #0CECDD;
+    width: 500px;
+    border-radius: 100px;
+    border-top: 3px solid black;
+    border-left: 3px solid black;
+    border-right: 3px solid black;
+    margin-top: 0%;
+    opacity: 0.6;
+}
+
+.midsect {
+
+    background-color: #c90be2;
+    width: 500px;
+    border-radius: 100px;
+    border-top: 3px solid black;
+    border-left: 3px solid black;
+    border-right: 3px solid black;
+    opacity: 0.6;
+    
+}
+
+.bottsect {
+
+    background-color: #fcff4e;
+    width: 500px;
+    border-radius: 100px;
+    border-top: 3px solid black;
+    border-left: 3px solid black;
+    border-right: 3px solid black;
+    border-bottom: 3px solid black;
+    opacity: 0.6;
+}
+
+/*hover cfx*/
+
+.topsect:hover, .midsect:hover, .bottsect:hover {
+    animation: skew-x-shake-a 1.3s;
+    opacity: 1;
+}
+a:hover {
+    background-color: rgb(187, 187, 187);
+}
+
+.pfp:hover {
+    background-color: rgb(253, 128, 128);
+    animation: skew-x-shake-b 1.3s;
+    opacity: 1;
+}
+
+.socialicons:hover {
+    animation: skew-x-shake-b 1.3s;
+}
+
+
+/*hover keyframes fx*/
+@keyframes skew-x-shake-a {
+    0% { transform: skewX(-1deg); }
+    5% { transform: skewX(1deg); }
+    10% { transform: skewX(-1deg); }
+    15% { transform: skewX(1deg); }
+    20% { transform: skewX(0deg); }
+    100% { transform: skewX(0deg); }  
+  }
+
+@keyframes skew-x-shake-b {
+    0% { transform: skewX(-5deg); }
+    5% { transform: skewX(10deg); }
+    10% { transform: skewX(-5deg); }
+    15% { transform: skewX(10deg); }
+    20% { transform: skewX(0deg); }
+    100% { transform: skewX(0deg); }  
+  }
