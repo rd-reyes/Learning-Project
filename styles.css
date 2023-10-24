@@ -52,7 +52,7 @@ p {
 }
 
 img {
-    width: 100%;
+    width: 50%;
     height: auto;
   }
 
@@ -69,6 +69,7 @@ img {
 .navbar ul{
     list-style-type: none;
     background-color: black;
+    opacity: 0.6;
     padding: 0px;
     margin: 0px;
 }
@@ -78,7 +79,7 @@ img {
     text-decoration: none;
     padding: 15px;
     display: block;
-    text-align;
+    text-align: center;
 }
 
   .screenshots:hover {
