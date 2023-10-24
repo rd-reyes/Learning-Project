@@ -1,7 +1,7 @@
 body {
 
     margin: 100px;
-    background-color: rgb(255, 238, 192);
+    background-color: rgb(255, 228, 156);
     
 }
 
@@ -65,6 +65,21 @@ img {
     border-right: 3px solid black;
     margin-top: 0%;
   }
+
+.navbar ul{
+    list-style-type: none;
+    background-color: black;
+    padding: 0px;
+    margin: 0px;
+}
+
+.navbar a{
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+    text-align;
+}
 
   .screenshots:hover {
     animation: skew-x-shake-a 1.3s;
