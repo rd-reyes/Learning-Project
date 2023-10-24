@@ -68,10 +68,15 @@ img {
 
 .navbar ul{
     list-style-type: none;
-    background-color: black;
+    background-color: hsl(0, 0%, 25%);
     opacity: 0.6;
     padding: 0px;
     margin: 0px;
+    overflow: hidden;
+}
+
+.navbar li{
+    float: left;
 }
 
 .navbar a{
@@ -82,7 +87,11 @@ img {
     text-align: center;
 }
 
-  .screenshots:hover {
+.navbar a:hover{
+    background-color: hsl(0, 0%, 10%);
+}
+
+.screenshots:hover {
     animation: skew-x-shake-a 1.3s;
   }
 
