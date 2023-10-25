@@ -51,6 +51,7 @@ h4 {
 /*images and links*/
 .pfp {
     display: block;
+    filter: blur(3px);
     margin-top: -50px;
     margin-left: auto;
     margin-right: auto;
@@ -83,6 +84,7 @@ iframe {
 .topsect {
 
     background-color: #0CECDD;
+    filter: blur(2px);
     width: 500px;
     border-radius: 100px;
     border-top: 3px solid black;
@@ -96,6 +98,7 @@ iframe {
 .midsect {
 
     background-color: #c90be2;
+    filter: blur(2px);
     width: 500px;
     border-radius: 100px;
     border-top: 3px solid black;
@@ -108,6 +111,7 @@ iframe {
 .bottsect {
 
     background-color: #fcff4e;
+    filter: blur(2px);
     width: 500px;
     border-radius: 100px;
     border-top: 3px solid black;
@@ -120,7 +124,9 @@ iframe {
 /*hover cfx*/
 
 .topsect:hover, .midsect:hover, .bottsect:hover {
+    filter: blur(0px);
     animation: skew-x-shake-a 1.3s;
+    transition-duration: 2s;
     opacity: 1;
 }
 
@@ -130,12 +136,14 @@ a:hover {
 
 .pfp:hover {
     background-color: rgb(253, 128, 128);
+    filter: blur(0px);
     border-radius: 60%;
     border-top: 1px solid black;
     border-left: 2px solid black;
     border-right: 2px solid black;
     border-bottom: 1px solid black;
     animation: skew-x-shake-b .8s;
+    transition-duration: .8s;
     opacity: 1;
 }
 
