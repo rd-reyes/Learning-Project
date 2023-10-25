@@ -4,7 +4,8 @@ body {
     background-color: #2196F3;
     padding: 10px;
     margin: 100px;
-    background-color: rgb(4, 0, 15);
+    background-color: rgb(2, 0, 8);
+    transition-duration: 1.8s;
     
     
 }
@@ -15,6 +16,7 @@ div {
     width: 50%;
     padding: 10px;
     border: 1px solid rgb(0, 0, 0);
+    transition-duration: 1.2s;
 }
 
 p {
@@ -23,6 +25,7 @@ p {
 
 h1 {
     text-align: center;
+    text-shadow: 1px 2px 4px black;
     margin-top: 50px;
     margin-bottom: 50px;
     margin-left: 0px;
@@ -134,9 +137,11 @@ a:hover {
     background-color: rgb(187, 187, 187);
 }
 
+
 .pfp:hover {
     background-color: rgb(253, 128, 128);
     filter: blur(0px);
+    filter: drop-shadow(4px 8px 5px #000000);
     border-radius: 60%;
     border-top: 1px solid black;
     border-left: 2px solid black;
