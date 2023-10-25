@@ -1,6 +1,8 @@
 
 /*Outline for parents & child*/
 body {
+
+    height: 100dvh;
     background-color: #2196F3;
     padding: 10px;
     margin: 100px;
@@ -129,7 +131,7 @@ iframe {
 .topsect:hover, .midsect:hover, .bottsect:hover {
     filter: blur(0px);
     animation: skew-x-shake-a 1.3s;
-    transition-duration: 2s;
+    transition-duration: 1s;
     opacity: 1;
 }
 
