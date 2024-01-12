@@ -59,12 +59,12 @@ img {
 
 .main_body {
     background-color: #ffffff;
-    width: auto;
-    /*border-radius: 100px;
+    width: 850px;
+    border-radius: 100px;
     border-top: 3px solid black;
     border-left: 3px solid black;
     border-right: 3px solid black;
-    margin-top: 0%;*/
+    margin-top: 0%;
   }
 
 .navbar ul{
