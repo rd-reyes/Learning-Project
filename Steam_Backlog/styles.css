@@ -26,6 +26,16 @@ div {
     width: 40%;
 }
 
+.main_body {
+    background-color: #ffffff;
+    width: auto;
+    /*border-radius: 100px;
+    border-top: 3px solid black;
+    border-left: 3px solid black;
+    border-right: 3px solid black;
+    margin-top: 0%;*/
+  }
+
 .main_list {
     max-width: fit-content;
     margin: auto;

@@ -59,7 +59,7 @@ img {
 
 .main_body {
     background-color: #ffffff;
-    width: 500px;
+    width: auto;
     /*border-radius: 100px;
     border-top: 3px solid black;
     border-left: 3px solid black;
